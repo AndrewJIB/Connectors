@@ -1,0 +1,45 @@
+<!-- -->
+/*
+	ширина, высота и радиус элементов должны зависеть от point_radius
+	width = 				point_radius*2
+	height = 			point_radius*2
+	border-radius = 	point_radius
+*/
+
+.circle {
+	width: 20px;
+	height: 20px;
+	background: red;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.circle_invisible {
+	width: 20px;
+	height: 20px;
+	background: rgba(0, 0, 0, 0);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.circle_green {
+	width: 20px;
+	height: 20px;
+	background: green;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.style_line {
+	background-color: green;
+	height: 20px;
+	border-radius: 0 10px 10px 0;
+}
+
+.miniline {
+	background-color: black;
+	height: 1px;
+}
